@@ -1,6 +1,7 @@
 import { createFileRoute } from "@tanstack/react-router";
 import {
   ArrowDown,
+  ArrowUpRight,
   BookOpen,
   BriefcaseBusiness,
   Download,
