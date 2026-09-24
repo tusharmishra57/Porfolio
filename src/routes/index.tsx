@@ -1,9 +1,9 @@
 import { createFileRoute } from "@tanstack/react-router";
 import {
   ArrowDown,
-  ArrowUpRight,
   BookOpen,
   BriefcaseBusiness,
+  Download,
   Github,
   GraduationCap,
   Linkedin,
@@ -12,7 +12,6 @@ import {
   Terminal,
 } from "lucide-react";
 import developerCore from "@/assets/developer-core.png";
-import resumeAsset from "@/assets/tushar-resume.pdf.asset.json";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -110,8 +109,12 @@ function Portfolio() {
             <a className="nav-link" href="#skills">Skills</a>
             <a className="nav-link" href="#contact">Contact</a>
           </div>
-          <a className="button-secondary px-3.5 py-2 text-sm" href={resumeAsset.url} target="_blank" rel="noreferrer">
-            Résumé <ArrowUpRight className="size-3.5" aria-hidden="true" />
+          <a
+            className="button-secondary px-3.5 py-2 text-sm"
+            href="/TusharMishra_CV_forPortfolio.pdf"
+            download="TusharMishra_CV_forPortfolio.pdf"
+          >
+            Résumé <Download className="size-3.5" aria-hidden="true" />
           </a>
         </nav>
       </header>
