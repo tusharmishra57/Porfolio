@@ -192,7 +192,7 @@ function Portfolio() {
               <p className="font-mono text-xs font-semibold text-accent">2026</p>
               <h3 className="mt-3 font-display text-2xl font-bold">Published Research</h3>
               <p className="mt-1 text-sm font-medium text-foreground/80">COLIEE 2026 · Legal Case Retrieval Task</p>
-              <p className="mt-5 text-sm leading-7 text-muted-foreground">Contributed research to legal information retrieval while building an explainable, multi-model bail prediction system for Indian legal cases.</p>
+              <p className="mt-5 text-sm leading-7 text-muted-foreground">Contributed research to legal information retrieval while building an explainable, multi-model bail prediction system for legal cases.</p>
             </article>
           </div>
           <div className="mt-12 flex items-start gap-4 border-t border-border pt-8">
