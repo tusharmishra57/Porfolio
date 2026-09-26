@@ -17,13 +17,13 @@ import developerCore from "@/assets/developer-core.png";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Tushar Mishra — Software Engineer" },
+      { title: "Tushar Mishra" },
       {
         name: "description",
         content:
           "Portfolio of Tushar Mishra, a software engineer building real-time systems and AI-powered products.",
       },
-      { property: "og:title", content: "Tushar Mishra — Software Engineer" },
+      { property: "og:title", content: "Tushar Mishra" },
       {
         property: "og:description",
         content: "Real-time systems, intelligent applications, and dependable software.",
